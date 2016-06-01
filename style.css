@@ -1,0 +1,55 @@
+/* By rubend447 2016 */
+
+@charset "utf-8";
+@font-face {
+    font-family: 'space_age';
+    src: url('fonts/space_age.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+/* BODY */
+}
+html {
+	height: 100%; -webkit-font-smoothing: antialiased; font-smoothing: antialiased;
+}
+
+body{
+background-color: #000000;
+}
+
+/* ICON */
+img {
+    content: icon;
+    icon: url(favicon.ico);
+}
+
+/* TEXT */
+
+h1 {
+    color: #c0c0c0;
+}
+
+h3 {
+    color: #c0c0c0;
+}
+
+p {
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+/* LINKS */
+a:link, a:visited {
+    display: inline-block;
+    background-color: #003f80;
+    color: #c0c0c0;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+a:hover, a:active {
+	background-color: green;
+}
